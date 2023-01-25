@@ -2,7 +2,6 @@ package com.bridgelabz;
 
 public class Patient {
 
-
     String patientName;
     int patientAge;
     String patientPhoneNumber;
@@ -24,12 +23,13 @@ public class Patient {
         System.out.println("City Of The Patient : " + patientCity);
         System.out.println("State Of The Patient : " + patientState);
         System.out.println("Department : " + patientDepartment);
-//        System.out.println("Name Of The Hospital : " + hName);
-
     }
 
     enum Department {
-//        ONCOLOGY, NEUROLOGY , CARDIOLOGY , GYNOCOLOGY
+        ONCOLOGY,
+        NEUROLOGY,
+        CARDIOLOGY,
+        GYNOCOLOGY;
     }
 
 
